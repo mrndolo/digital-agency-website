@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* ====== Variables ======= */
+:root {
+    --darkblue : #242A56;
+    --lightblue : #749BE7;
+    --bg : #EFF2FF;
+    --gradient : linear-gradient(to bottom right, #2a305f,#242a5652);
+
+    --bold : 600;
+    --semi-bold : 500;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h1,h2,h3,h4 {
+    font-weight: var(--bold);
+    color: var(--darkblue);
+}
+
+/* ====== Reusable Classes ======== */
+.container {
+    width: 85%;
+    margin: auto;
+}
+.grid {
+    display: grid;
+    grid-gap: 1.5rem;
+}
+section {
+    padding: 60px 0;
+}
