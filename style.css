@@ -44,3 +44,58 @@ h1,h2,h3,h4 {
 section {
     padding: 60px 0;
 }
+.ctn {
+    padding: 10px 12px;
+    background-color: var(--lightblue);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.ctn:hover, .ctn:hover a{
+    color: var(--lightblue);
+    background-color: white;
+}
+
+/* Header Section */
+.header {
+    background-image: url(./img/header-bg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav-item:hover, .nav-item:hover a{
+    color: var(--lightblue);
+}
+.logo img{
+    width: 200px;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li a {
+    color: white;
+    margin: 0 20px;
+}
+.header-content {
+    width: 50%;
+    margin-top: 100px;
+    color: whitesmoke;
+}
+.header-content h1, .header-content h3 {
+    color: whitesmoke;
+    margin: 10px auto;
+}
+.header-content h1 {
+    font-size: 3rem;
+}
+.header-content p {
+    margin-bottom: 30px;
+}
