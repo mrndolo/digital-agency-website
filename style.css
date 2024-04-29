@@ -112,6 +112,7 @@ ul li a {
 }
 .title h1 {
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 .services {
     background: var(--bg);
@@ -143,7 +144,7 @@ ul li a {
     margin-bottom: 10px;
 }
 /* Portfolio Section */
-.portfolio-wrapper {
+.portfolio-wrapper, .customers-wrapper {
     margin-top: 60px;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 }
