@@ -153,3 +153,22 @@ ul li a {
     justify-content: center;
     margin: 30px auto;
 }
+.customers {
+    margin-bottom: 60px;
+}
+/* Testimonial Section */
+.testimonial {
+    background: var(--bg);
+}
+.testimonial .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review {
+    margin-top: 50px;
+    text-align: center;
+}
+.review h4 {
+    color: #3b3c43;
+}
