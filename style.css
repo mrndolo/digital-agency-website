@@ -196,3 +196,48 @@ ul li a {
     color: var(--lightblue);
     margin-bottom: 10px;
 }
+/* === Footer Section === */
+footer {
+    padding: 60px 0;
+    background-color: var(--darkblue);
+}
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+footer h2,
+footer p,
+footer li,
+footer a {
+    color: white;
+}
+footer .col h2 {
+    margin-bottom: 10px;
+}
+footer ul {
+    flex-direction: column;
+}
+footer ul li{
+    margin: 10px auto;
+    cursor: pointer;
+}
+footer .container .col:nth-child(1) p{
+    margin: 20px auto;
+}
+footer .social-icons .fa {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+footer .social-icons {
+    flex-direction: row;
+}
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr, .copyright{
+    width: 85%;
+    margin: 10px auto;
+}
